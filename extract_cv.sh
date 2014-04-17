@@ -1,0 +1,1 @@
+grep CV *.log | awk '{print $3,$4}' | tr -d '[()K=:]'
